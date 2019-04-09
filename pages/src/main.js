@@ -16,7 +16,8 @@ import qs from 'qs'
 
 Vue.prototype.qs = qs
 axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded;charset=UTF-8'
-axios.defaults.baseURL = 'http://192.168.31.6:8890/js/a/'
+//axios.defaults.baseURL = 'http://192.168.31.6:8890/js/a/'
+axios.defaults.baseURL = 'http://47.107.133.180/js/a/'
 Vue.prototype.axios = axios
 Vue.use(ElementUI)
 Vue.use(Vuex)
